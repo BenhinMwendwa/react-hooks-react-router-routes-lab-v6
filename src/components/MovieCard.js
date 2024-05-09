@@ -6,6 +6,8 @@ function MovieCard({title}) {
     <article>
         <h2>{title}</h2>
         {/* What should go here? */}
+
+        <Link to={`/movie/${id}`}>View Info</Link>
     </article>
   );
 };
